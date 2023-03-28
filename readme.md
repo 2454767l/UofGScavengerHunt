@@ -9,7 +9,7 @@ The implementation file structure follows a standard Flutter File structure. The
 - lib folder: This contains all the implemented dart code.
 - pubspec.yaml: Contains various project meta data as well as the various dependencies required to run the application.
 
-##Implementation outline
+## Implementation outline
 
 The most important file is the main.dart file. This is the source where the application is run from. It functions by calling the root method to determine what page the user should be taken to on start up. For more information on how the root is used in this software application see chapter in dissertation.
 
