@@ -1,11 +1,15 @@
-# Readme
+# A U of G Scavenger Hunt for social bonding and campus exploration
 
-The implementation file structure follows a standard Flutter File structure. The Flutter application is made up of all of the files encapsulated within the "TreasureHunt-master" Folder. Key folders/files are as follows:
-1- Assets folder: This contains various asset data used within the application such as fonts and images.
-2- lib folder: This contains all the implemented dart code.
-3- pubspec.yaml: Contains various project meta data as well as the various dependencies required to run the application.
+## Description
 
-Implementation outline:
+Welcome, this is a prototype of a Scavenger Hunt location-based game set around the University of Glasgow campus developed as part of my level 4 Computing Science Dissertation Project at the University of Glasgow.
+
+The implementation file structure follows a standard Flutter File structure. The Flutter application is made up of all of the files encapsulated within the "TreasureHunt-master" Folder. Key folders and files are as follows:
+- Assets folder: This contains various asset data used within the application such as fonts and images.
+- lib folder: This contains all the implemented dart code.
+- pubspec.yaml: Contains various project meta data as well as the various dependencies required to run the application.
+
+##Implementation outline
 
 The most important file is the main.dart file. This is the source where the application is run from. It functions by calling the root method to determine what page the user should be taken to on start up. For more information on how the root is used in this software application see chapter in dissertation.
 
@@ -13,21 +17,15 @@ The second most important folder is the 'screens' folder, storing visual screens
 
 
 Additionally, folder explainations are as follows:
--The 'controllers' folder contains controllers for each of the challenge screens. See implementation section 6.3 of the dissertation for more information on Flutter controllers.
+- The 'controllers' folder contains controllers for each of the challenge screens. See implementation section 6.3 of the dissertation for more information on Flutter controllers.
 
--The 'models' folder provides models for various parts of the application.
+- The 'models' folder provides models for various parts of the application.
 
--The 'services' folder contains the database functionality.
+- The 'services' folder contains the database functionality.
 
--The 'states' folder contains implementation for managing the application state of the current user.
+- The 'states' folder contains implementation for managing the application state of the current user.
 
--The 'utils' folder contains application theme data.
-
-
-## Build instructions
-
-**You must** include the instructions necessary to build and deploy this project successfully. If appropriate, also include 
-instructions to run automated tests. 
+- The 'utils' folder contains application theme data.
 
 ### Requirements
 
@@ -47,14 +45,22 @@ or another example:
 
 ### Build steps
 
+To In the command prompt, navigate to the project directory and enter the following command into your command prompt to install the required modules:
+- `flutter pub get'
+
 List the steps required to build software. 
 
 Hopefully something simple like `pip install -e .` or `make` or `cd build; cmake ..`. In
 some cases you may have much more involved setup required.
 
-### Test steps
+## Build instructions
 
-List steps needed to show your software works. This might be running a test suite, or just starting the program; but something that could be used to verify your code is working correctly.
+**You must** include the instructions necessary to build and deploy this project successfully. If appropriate, also include 
+instructions to run automated tests. 
+
+- The application should be run from it's source, 'main.dart' file using an IDE such as Android Studio using a specified android device. 
+
+- Alternatively, this can be done by navigating to the 'TreasureHunt-master' directory and running the following command: 'flutter run' using a specified android device.
 
 Examples:
 
