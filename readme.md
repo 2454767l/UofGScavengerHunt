@@ -29,41 +29,32 @@ Additionally, folder explainations are as follows:
 
 ### Requirements
 
-List the all of the pre-requisites software required to set up your project (e.g. compilers, packages, libraries, OS, hardware)
-
-For example:
-
-* Python 3.7
-* Packages: listed in `requirements.txt` 
-* Tested on Windows 10
-
-or another example:
-
-* Requires Raspberry Pi 3 
-* a Linux host machine with the `arm-none-eabi` toolchain (at least version `x.xx`) installed
-* a working LuaJIT installation > 2.1.0
+Tools, Packages and Flutter Plugins required to sucessfully install this project.
+- `Flutter version 3.0.5`
+- `Dart version 2.17.6`
+- `DevTools version 2.12.2` 
+- `cloud_firestore: 4.2.0`
+-  `firebase_auth: 4.2.0`
+-  `provider: 6.0.4`
+-  `google_maps_flutter: 2.1.7`
+-  `location: 4.4.0`
+-  `flutter_svg: 1.1.6`
+-  `get: 4.6.5`
+-  `auto_size_text: 3.0.0`
+-  `liquid_pull_to_refresh: 3.0.1`
+- `cupertino_icons: 1.0.2`
+- `Android device or Emulator equivalent.`
 
 ### Build steps
 
-To In the command prompt, navigate to the project directory and enter the following command into your command prompt to install the required modules:
+In the command prompt, navigate to the project directory and enter the following command into your command prompt to install the required modules:
 - `flutter pub get'
 
-List the steps required to build software. 
-
-Hopefully something simple like `pip install -e .` or `make` or `cd build; cmake ..`. In
-some cases you may have much more involved setup required.
 
 ## Build instructions
 
-**You must** include the instructions necessary to build and deploy this project successfully. If appropriate, also include 
-instructions to run automated tests. 
+- The application should be run from it's source, 'main.dart' file using an IDE such as Android Studio (recommended) using a specified android device. 
 
-- The application should be run from it's source, 'main.dart' file using an IDE such as Android Studio using a specified android device. 
+- Alternatively, this can be done by navigating to the 'TreasureHunt-master' directory and running the following command: `flutter run` using a specified android device.
 
-- Alternatively, this can be done by navigating to the 'TreasureHunt-master' directory and running the following command: 'flutter run' using a specified android device.
-
-Examples:
-
-* Run automated tests by running `pytest`
-* Start the software by running `bin/editor.exe` and opening the file `examples/example_01.bin`
-
+Note: You may be prompted to select a device to run it on if it has not identified it already.
