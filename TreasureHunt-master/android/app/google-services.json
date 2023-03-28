@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "432705890343",
+    "project_id": "u-of-g-treasure-hunt",
+    "storage_bucket": "u-of-g-treasure-hunt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432705890343:android:07d7cdfd41c926e5ae4602",
+        "android_client_info": {
+          "package_name": "com.example.U_of_G_Treasure_Hunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432705890343-rgokrrcbftihb8m3nref89n0gcqqetnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-3-p5fAPG8Unfio9LlLAH8FVnQpCYLoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432705890343-rgokrrcbftihb8m3nref89n0gcqqetnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
