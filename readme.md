@@ -11,15 +11,15 @@ The implementation file structure follows a standard Flutter File structure. The
 
 ## Implementation outline
 
-The most important file is the main.dart file. This is the source where the application is run from. It functions by calling the root method to determine what page the user should be taken to on start up. For more information on how the root is used in this software application see chapter in dissertation.
+The most important file is the main.dart file. This is the source where the application is run from. It functions by calling the root method to determine what page the user should be taken to on start up.
 
 The second most important folder is the 'screens' folder, storing visual screens presented to the user as the UI. Within 'screens' can be found each of the screens of the application, each stored within seperate folders and sub folders where required to keep the project tidy.
 
 
-Additionally, folder explainations are as follows:
+Additionally:
 - The 'controllers' folder contains controllers for each of the challenge screens. See implementation section 6.3 of the dissertation for more information on Flutter controllers.
 
-- The 'models' folder provides models for various parts of the application.
+- The 'models' folder provides model data for various parts of the application.
 
 - The 'services' folder contains the database functionality.
 
@@ -47,14 +47,14 @@ Tools, Packages and Flutter Plugins required to sucessfully install this project
 
 ### Build steps
 
-In the command prompt, navigate to the project directory and enter the following command into your command prompt to install the required modules:
+In the chosen IDE command prompt, navigate to the project directory and enter the following command into your command prompt to install the required modules:
 - `flutter pub get'
 
 
 ## Build instructions
 
-- The application should be run from it's source, 'main.dart' file using an IDE such as Android Studio (recommended) using a specified android device. 
+- The application should be run by navigating to the 'TreasureHunt-master' directory and running the following command: `flutter run` using a specified android device.
 
-- Alternatively, this can be done by navigating to the 'TreasureHunt-master' directory and running the following command: `flutter run` using a specified android device.
+- Alternatively, this can be done by running main.dart using an IDE such as Android Studio (recommended) using a specified android device. 
 
 Note: You may be prompted to select a device to run it on if it has not identified it already.
